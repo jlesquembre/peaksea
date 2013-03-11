@@ -120,7 +120,7 @@ if &background=='light'
     endif
     hi TabLine		gui=underline
     hi TabLineFill	gui=underline
-    hi CursorLine	gui=underline
+    hi CursorLine	gui=NONE
   endif
 
   " For reversed stuffs, clear the reversed prop and set the bold prop again
@@ -272,7 +272,7 @@ elseif &background=='dark'
   " NOTE THIS IS IN THE COOL SECTION
   hi CursorIM		guifg=#000000	guibg=#f0c0f0	gui=NONE
   hi StatusLine		guifg=#000000	guibg=#a6caf0	gui=NONE
-  hi LineNr		guifg=#b0b0b0	guibg=#333435	gui=NONE
+  hi LineNr		guifg=#b0b0b0	guibg=#333333	gui=NONE
   hi Question		guifg=#000000	guibg=#d0d090	gui=NONE
   hi ModeMsg		guifg=fg	guibg=#000080	gui=NONE
   hi VisualNOS		guifg=fg	guibg=#000080	gui=NONE
@@ -294,7 +294,7 @@ elseif &background=='dark'
   hi IncSearch		guifg=#000000	guibg=#d0d0d0	gui=NONE
   hi StatusLineNC	guifg=#000000	guibg=#c0c0c0	gui=NONE
   hi VertSplit		guifg=#000000	guibg=#c0c0c0	gui=NONE
-  hi Underlined		guifg=#80a0ff	guibg=NONE	gui=underline 
+  hi Underlined		guifg=#80a0ff	guibg=NONE	gui=NONE 
   hi Ignore		guifg=#000000	guibg=NONE
   " NOTE THIS IS IN THE COOL SECTION
   if v:version >= 700
@@ -313,7 +313,7 @@ elseif &background=='dark'
     hi TabLineFill	guifg=fg	guibg=#008000	gui=NONE
     hi TabLineSel	guifg=fg	guibg=NONE	gui=NONE
     hi CursorColumn	guifg=NONE	guibg=#800000	gui=NONE
-    hi CursorLine	guifg=NONE	guibg=NONE	gui=underline
+    hi CursorLine	guifg=NONE	guibg=#666666	gui=NONE
     hi MatchParen	guifg=NONE	guibg=#800080
   endif
 
@@ -330,10 +330,10 @@ elseif &background=='dark'
       hi SpellRare	gui=undercurl  
       hi SpellLocal	gui=undercurl 
     endif
-    hi TabLine		gui=underline  
-    hi TabLineFill	gui=underline  
-    hi Underlined	gui=underline  
-    hi CursorLine	gui=underline 
+    hi TabLine		gui=NONE  
+    hi TabLineFill	gui=NONE  
+    hi Underlined	gui=NONE  
+    hi CursorLine	gui=NONE 
   endif
 
   " gui define for background=dark end here
