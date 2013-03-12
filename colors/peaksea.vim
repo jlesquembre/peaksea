@@ -273,7 +273,7 @@ elseif &background=='dark'
   hi Cursor		guifg=#000000	guibg=#00f000	gui=NONE
   " NOTE THIS IS IN THE COOL SECTION
   hi CursorIM		guifg=#000000	guibg=#f0c0f0	gui=NONE
-  hi StatusLine		guifg=#000000	guibg=#a6caf0	gui=NONE
+  hi StatusLine		guifg=#ffffff	guibg=#272822	gui=bold
   hi LineNr		guifg=#b0b0b0	guibg=#333333	gui=NONE
   hi Question		guifg=#000000	guibg=#d0d090	gui=NONE
   hi ModeMsg		guifg=fg	guibg=#000080	gui=NONE
@@ -366,7 +366,7 @@ elseif &background=='dark'
     hi Search		ctermfg=NONE	    ctermbg=DarkRed
     hi Visual		ctermfg=Black	    ctermbg=DarkCyan
     hi Cursor		ctermfg=Black	    ctermbg=Green
-    hi StatusLine	ctermfg=Black	    ctermbg=DarkCyan
+    hi StatusLine	ctermfg=White	    ctermbg=DarkCyan
     hi Question		ctermfg=Black	    ctermbg=DarkYellow
     hi Todo		ctermfg=DarkRed     ctermbg=DarkYellow
     hi Folded		ctermfg=White	    ctermbg=DarkGreen
