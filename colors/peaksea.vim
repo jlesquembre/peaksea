@@ -38,6 +38,8 @@ endif
 
 let g:colors_name = expand("<sfile>:t:r")
 
+set fillchars+=vert:│
+
 " I don't want to abuse folding, but here folding is used to avoid confusion. 
 if &background=='light' 
   " for background=light {{{2
@@ -82,7 +84,7 @@ if &background=='light'
 
   hi IncSearch		guifg=#f0f0f0	guibg=#806060	gui=NONE
   hi StatusLineNC	guifg=fg	guibg=#c0c0c0	gui=NONE
-  hi VertSplit		guifg=fg	guibg=#c0c0c0	gui=NONE
+  hi VertSplit		guifg=NONE	guibg=NONE	gui=NONE
   hi Underlined		guifg=#6a5acd	guibg=NONE	gui=underline
   hi Ignore		guifg=bg	guibg=NONE
   " NOTE THIS IS IN THE WARM SECTION
@@ -195,7 +197,7 @@ if &background=='light'
 
     hi IncSearch	ctermfg=255	ctermbg=95	cterm=NONE
     hi StatusLineNC	ctermfg=fg	ctermbg=250	cterm=NONE
-    hi VertSplit	ctermfg=fg	ctermbg=250	cterm=NONE
+    hi VertSplit	ctermfg=NONE	ctermbg=NONE	cterm=NONE
     hi Underlined	ctermfg=62	ctermbg=NONE	cterm=underline
     hi Ignore		ctermfg=bg	ctermbg=NONE
     " NOTE THIS IS IN THE WARM SECTION
@@ -293,7 +295,7 @@ elseif &background=='dark'
   hi SignColumn		guifg=#e0e0e0	guibg=#008000	gui=NONE
   hi IncSearch		guifg=#000000	guibg=#d0d0d0	gui=NONE
   hi StatusLineNC	guifg=#000000	guibg=#c0c0c0	gui=NONE
-  hi VertSplit		guifg=#000000	guibg=#c0c0c0	gui=NONE
+  hi VertSplit		guifg=NONE	guibg=NONE	gui=NONE
   hi Underlined		guifg=#80a0ff	guibg=NONE	gui=NONE 
   hi Ignore		guifg=#000000	guibg=NONE
   " NOTE THIS IS IN THE COOL SECTION
@@ -531,7 +533,7 @@ elseif &background=='dark'
     hi SignColumn	ctermfg=254	ctermbg=28	cterm=NONE
     hi IncSearch	ctermfg=16	ctermbg=252	cterm=NONE
     hi StatusLineNC	ctermfg=16	ctermbg=250	cterm=NONE
-    hi VertSplit	ctermfg=16	ctermbg=250	cterm=NONE
+    hi VertSplit	ctermfg=NONE	ctermbg=NONE	cterm=NONE
     hi Underlined	ctermfg=111	ctermbg=NONE	cterm=underline 
     hi Ignore		ctermfg=16	ctermbg=NONE
     " NOTE THIS IS IN THE COOL SECTION
