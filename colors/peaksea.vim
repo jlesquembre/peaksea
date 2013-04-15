@@ -299,9 +299,20 @@ elseif &background=='dark'
   hi Underlined		guifg=#80a0ff	guibg=NONE	gui=NONE 
   hi Ignore		guifg=#000000	guibg=NONE
   hi gitcommitComment   guifg=#75715e   guibg=NONE      gui=NONE
-"  hi! link gitcommitUntracked gitcommitComment
-"  hi! link gitcommitDiscarded gitcommitComment
-"  hi! link gitcommitSelected  gitcommitComment
+  hi link gitcommitUntracked gitcommitComment
+  hi link gitcommitDiscarded gitcommitComment
+  hi link gitcommitSelected  gitcommitComment
+
+  "hi gitcommitHeader
+  hi gitcommitUntrackedFile guifg=#999900   guibg=NONE	gui=NONE
+  hi gitcommitDiscardedFile guifg=#d70000   guibg=NONE	gui=NONE
+  hi gitcommitSelectedFile  guifg=#a6e22e guibg=NONE	gui=NONE
+  "hi gitcommitUnmergedFile
+  "hi gitcommitFile
+  
+  hi link gitcommitDiscardedType gitcommitDiscardedFile 
+  hi link gitcommitSelectedType gitcommitSelectedFile  
+
 "  hi gitcommitUntracked guifg=NONE	guibg=#666600	gui=NONE
 "  hi gitcommitDiscarded guifg=#d70000   guibg=NONE	gui=NONE
 "  hi gitcommitSelected  
