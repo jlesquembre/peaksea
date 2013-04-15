@@ -287,17 +287,24 @@ elseif &background=='dark'
   hi WarningMsg		guifg=#f08060	guibg=NONE	gui=NONE
   hi WildMenu		guifg=#000000	guibg=#d0d090	gui=NONE
   hi Folded		guifg=NONE	guibg=#004000	gui=NONE
-  hi FoldColumn		guifg=#e0e0e0	guibg=#008000	gui=NONE
-  hi DiffAdd		guifg=NONE	guibg=#000080	gui=NONE
-  hi DiffChange		guifg=NONE	guibg=#800080	gui=NONE
-  hi DiffDelete		guifg=#6080f0	guibg=#202020	gui=NONE
-  hi DiffText		guifg=#000000	guibg=#c0e080	gui=NONE
+  hi FoldColumn		guifg=#a6e22e	guibg=NONE	gui=NONE
+  hi DiffAdd		guifg=NONE	guibg=#193300	gui=NONE
+  hi DiffChange		guifg=NONE	guibg=#333300	gui=NONE
+  hi DiffDelete		guifg=#d70000   guibg=NONE	gui=NONE
+  hi DiffText		guifg=NONE	guibg=#666600	gui=NONE
   hi SignColumn		guifg=#e0e0e0	guibg=#008000	gui=NONE
   hi IncSearch		guifg=#000000	guibg=#d0d0d0	gui=NONE
   hi StatusLineNC	guifg=#000000	guibg=#c0c0c0	gui=NONE
   hi VertSplit		guifg=NONE	guibg=NONE	gui=NONE
   hi Underlined		guifg=#80a0ff	guibg=NONE	gui=NONE 
   hi Ignore		guifg=#000000	guibg=NONE
+  hi gitcommitComment   guifg=#75715e   guibg=NONE      gui=NONE
+"  hi! link gitcommitUntracked gitcommitComment
+"  hi! link gitcommitDiscarded gitcommitComment
+"  hi! link gitcommitSelected  gitcommitComment
+"  hi gitcommitUntracked guifg=NONE	guibg=#666600	gui=NONE
+"  hi gitcommitDiscarded guifg=#d70000   guibg=NONE	gui=NONE
+"  hi gitcommitSelected  
   " NOTE THIS IS IN THE COOL SECTION
   if v:version >= 700
     if has('spell')
