@@ -296,26 +296,28 @@ elseif &background=='dark'
   hi IncSearch		guifg=#000000	guibg=#d0d0d0	gui=NONE
   hi StatusLineNC	guifg=#000000	guibg=#c0c0c0	gui=NONE
   hi VertSplit		guifg=NONE	guibg=NONE	gui=NONE
-  hi Underlined		guifg=#80a0ff	guibg=NONE	gui=NONE 
+  hi Underlined		guifg=#80a0ff	guibg=NONE	gui=NONE
   hi Ignore		guifg=#000000	guibg=NONE
+
+
   hi gitcommitComment   guifg=#75715e   guibg=NONE      gui=NONE
+
   hi link gitcommitUntracked gitcommitComment
   hi link gitcommitDiscarded gitcommitComment
   hi link gitcommitSelected  gitcommitComment
 
-  "hi gitcommitHeader
-  hi gitcommitUntrackedFile guifg=#999900   guibg=NONE	gui=NONE
-  hi gitcommitDiscardedFile guifg=#d70000   guibg=NONE	gui=NONE
-  hi gitcommitSelectedFile  guifg=#a6e22e guibg=NONE	gui=NONE
-  "hi gitcommitUnmergedFile
-  "hi gitcommitFile
-  
-  hi link gitcommitDiscardedType gitcommitDiscardedFile 
-  hi link gitcommitSelectedType gitcommitSelectedFile  
+  hi gitcommitHeader    guifg=#cc99ff   guibg=NONE       gui=NONE
 
-"  hi gitcommitUntracked guifg=NONE	guibg=#666600	gui=NONE
-"  hi gitcommitDiscarded guifg=#d70000   guibg=NONE	gui=NONE
-"  hi gitcommitSelected  
+  hi gitcommitSelectedType guifg=#80c0e0  guibg=NONE    gui=BOLD
+  hi link gitcommitUnmergedType gitcommitSelectedType
+
+  hi gitcommitBranch guifg=#ffb266     guibg=NONE     gui=BOLD
+
+  hi gitcommitUntrackedFile guifg=#ffff00   guibg=NONE	gui=NONE
+  hi gitcommitUnmergedFile  guifg=#d70000   guibg=NONE	gui=NONE
+  hi gitcommitSelectedFile  guifg=#a6e22e   guibg=NONE	gui=NONE
+
+
   " NOTE THIS IS IN THE COOL SECTION
   if v:version >= 700
     if has('spell')
