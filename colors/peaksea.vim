@@ -333,9 +333,9 @@ elseif &background=='dark'
     hi PmenuSel		guifg=#000000	guibg=#d0d0d0	gui=NONE
     hi PmenuSbar	guifg=fg	guibg=#000080	gui=NONE
     hi PmenuThumb	guifg=fg	guibg=#008000	gui=NONE
-    hi TabLine		guifg=fg	guibg=#008000	gui=NONE
-    hi TabLineFill	guifg=fg	guibg=#008000	gui=NONE
-    hi TabLineSel	guifg=fg	guibg=NONE	gui=NONE
+    hi TabLine		guifg=fg	guibg=#707070	gui=NONE
+    hi TabLineFill      guifg=fg	guibg=#707070	gui=NONE
+    hi TabLineSel	guifg=#ffffff	guibg=#000000	gui=BOLD
     hi CursorColumn	guifg=NONE	guibg=#800000	gui=NONE
     hi CursorLine	guifg=NONE	guibg=#666666	gui=NONE
     hi MatchParen	guifg=NONE	guibg=#800080
