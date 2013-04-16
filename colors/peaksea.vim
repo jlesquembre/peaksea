@@ -268,9 +268,9 @@ elseif &background=='dark'
   hi Special		guifg=#e0c060	guibg=NONE	gui=NONE
   hi Error		guifg=#f08060	guibg=NONE	gui=NONE
   hi Todo		guifg=#800000	guibg=#d0d090	gui=NONE
-  hi Search		guifg=NONE	guibg=#800000	gui=NONE
+  hi Search		guifg=#000000	guibg=#ffff00	gui=BOLD
   hi Visual		guifg=#000000	guibg=#a6caf0	gui=NONE
-  hi Cursor		guifg=#000000	guibg=#00f000	gui=NONE
+  hi Cursor		guifg=#000000	guibg=#ffffff	gui=NONE
   " NOTE THIS IS IN THE COOL SECTION
   hi CursorIM		guifg=#000000	guibg=#f0c0f0	gui=NONE
   hi StatusLine		guifg=#ffffff	guibg=#272822	gui=bold
@@ -286,7 +286,7 @@ elseif &background=='dark'
   hi Title		guifg=#f0c0f0	guibg=NONE	gui=NONE
   hi WarningMsg		guifg=#f08060	guibg=NONE	gui=NONE
   hi WildMenu		guifg=#000000	guibg=#d0d090	gui=NONE
-  hi Folded		guifg=NONE	guibg=#004000	gui=NONE
+  hi Folded		guifg=NONE	guibg=#666666	gui=NONE
   hi FoldColumn		guifg=#a6e22e	guibg=NONE	gui=NONE
   hi DiffAdd		guifg=NONE	guibg=#193300	gui=NONE
   hi DiffChange		guifg=NONE	guibg=#333300	gui=NONE
