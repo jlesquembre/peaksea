@@ -309,13 +309,15 @@ elseif &background=='dark'
   hi gitcommitHeader    guifg=#cc99ff   guibg=NONE       gui=NONE
 
   hi gitcommitSelectedType guifg=#80c0e0  guibg=NONE    gui=BOLD
-  hi link gitcommitUnmergedType gitcommitSelectedType
+  hi link gitcommitUnmergedType  gitcommitSelectedType
+  hi link gitcommitDiscardedType gitcommitSelectedType
 
-  hi gitcommitBranch guifg=#ffb266     guibg=NONE     gui=BOLD
+  hi gitcommitBranch guifg=#f88b0c     guibg=NONE     gui=BOLD
 
-  hi gitcommitUntrackedFile guifg=#ffff00   guibg=NONE	gui=NONE
-  hi gitcommitUnmergedFile  guifg=#d70000   guibg=NONE	gui=NONE
-  hi gitcommitSelectedFile  guifg=#a6e22e   guibg=NONE	gui=NONE
+  hi gitcommitUntrackedFile  guifg=#fffd01   guibg=NONE	 gui=NONE
+  hi gitcommitUnmergedFile   guifg=#d70000   guibg=NONE	 gui=NONE
+  hi gitcommitDiscardedFile  guifg=#d70000   guibg=NONE	 gui=NONE
+  hi gitcommitSelectedFile   guifg=#0cff0c   guibg=NONE	 gui=NONE
 
 
   " NOTE THIS IS IN THE COOL SECTION
