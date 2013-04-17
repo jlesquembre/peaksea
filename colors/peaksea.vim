@@ -269,7 +269,7 @@ elseif &background=='dark'
   hi Error		guifg=#f08060	guibg=NONE	gui=NONE
   hi Todo		guifg=#800000	guibg=#d0d090	gui=NONE
   hi Search		guifg=#000000	guibg=#ffff00	gui=BOLD
-  hi Visual		guifg=#000000	guibg=#a6caf0	gui=NONE
+  hi Visual		guifg=NONE	guibg=#606060	gui=NONE
   hi Cursor		guifg=#000000	guibg=#ffffff	gui=NONE
   " NOTE THIS IS IN THE COOL SECTION
   hi CursorIM		guifg=#000000	guibg=#f0c0f0	gui=NONE
