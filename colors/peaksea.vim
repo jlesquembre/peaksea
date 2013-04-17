@@ -268,13 +268,14 @@ elseif &background=='dark'
   hi Special		guifg=#e0c060	guibg=NONE	gui=NONE
   hi Error		guifg=#f08060	guibg=NONE	gui=NONE
   hi Todo		guifg=#800000	guibg=#d0d090	gui=NONE
-  hi Search		guifg=#000000	guibg=#ffff00	gui=BOLD
+  hi Search	        guifg=#ffff00	guibg=#000000	gui=STANDOUT
   hi Visual		guifg=NONE	guibg=#606060	gui=NONE
-  hi Cursor		guifg=#000000	guibg=#ffffff	gui=NONE
+  hi Cursor		guifg=#202020	guibg=#e7e7e7	gui=NONE
   " NOTE THIS IS IN THE COOL SECTION
   hi CursorIM		guifg=#000000	guibg=#f0c0f0	gui=NONE
   hi StatusLine		guifg=#ffffff	guibg=#272822	gui=bold
   hi LineNr		guifg=#b0b0b0	guibg=#333333	gui=NONE
+  hi CursorLineNr	guifg=#b0b0b0	guibg=#666666	gui=NONE
   hi Question		guifg=#000000	guibg=#d0d090	gui=NONE
   hi ModeMsg		guifg=fg	guibg=#000080	gui=NONE
   hi VisualNOS		guifg=fg	guibg=#000080	gui=NONE
@@ -337,7 +338,7 @@ elseif &background=='dark'
     hi TabLineFill      guifg=fg	guibg=#707070	gui=NONE
     hi TabLineSel	guifg=#ffffff	guibg=#000000	gui=BOLD
     hi CursorColumn	guifg=NONE	guibg=#800000	gui=NONE
-    hi CursorLine	guifg=NONE	guibg=#666666	gui=NONE
+    hi CursorLine	guifg=NONE	guibg=NONE	gui=NONE
     hi MatchParen	guifg=NONE	guibg=#800080
   endif
 
