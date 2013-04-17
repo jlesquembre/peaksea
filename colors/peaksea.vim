@@ -338,7 +338,7 @@ elseif &background=='dark'
     hi TabLineFill      guifg=fg	guibg=#707070	gui=NONE
     hi TabLineSel	guifg=#ffffff	guibg=#000000	gui=BOLD
     hi CursorColumn	guifg=NONE	guibg=#800000	gui=NONE
-    hi CursorLine	guifg=NONE	guibg=NONE	gui=NONE
+    hi CursorLine	guifg=NONE	guibg=#666666	gui=NONE
     hi MatchParen	guifg=NONE	guibg=#800080
   endif
 
