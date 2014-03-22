@@ -293,7 +293,7 @@ elseif &background=='dark'
   hi DiffChange		guifg=NONE	guibg=#333300	gui=NONE
   hi DiffDelete		guifg=#d70000   guibg=NONE	gui=NONE
   hi DiffText		guifg=NONE	guibg=#666600	gui=NONE
-  hi SignColumn		guifg=#e0e0e0	guibg=#008000	gui=NONE
+  hi SignColumn		guifg=#e0e0e0	guibg=NONE	gui=NONE
   hi IncSearch		guifg=#000000	guibg=#d0d0d0	gui=NONE
   hi StatusLineNC	guifg=#000000	guibg=#c0c0c0	gui=NONE
   hi VertSplit		guifg=NONE	guibg=NONE	gui=NONE
